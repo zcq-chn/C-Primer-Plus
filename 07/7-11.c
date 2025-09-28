@@ -29,7 +29,8 @@ int main(void) {
 
     printf("欢迎来到ABC邮购杂货店订购系统！\n");
     
-    while (1) {
+    while (1)
+    {
         displayMenu();
         printf("请输入您的选择: ");
         scanf(" %c", &choice);  // 注意空格用于跳过空白字符
